@@ -1,15 +1,11 @@
 [package]
 name = "pubsub_zmq"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["yubo <anhuitianyu@163.com>"]
 edition = "2018"
 
 [dependencies]
-cmb-logger = "0.1.0"
-crossbeam-channel = "0.4.2"
+cmb-logger = "0.1"
+crossbeam-channel = "0.5"
 lazy_static = "1.4"
-zmq = "0.9.2"
-
-[features]
-default = ["vendored-zmq"]
-vendored-zmq = ['zmq/vendored']
+zmq = "0.10"
