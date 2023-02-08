@@ -5,7 +5,7 @@ authors = ["yubo <anhuitianyu@163.com>"]
 edition = "2018"
 
 [dependencies]
-cmb-logger = "0.1"
+cita-logger = "0.1"
 crossbeam-channel = "0.5"
 lazy_static = "1.4"
 zmq = "0.10"

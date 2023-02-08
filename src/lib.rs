@@ -1,4 +1,4 @@
-use cmb_logger::{error, warn};
+use cita_logger::{error, warn};
 pub use crossbeam_channel as channel;
 use crossbeam_channel::{Receiver, Sender};
 use lazy_static::lazy_static;
